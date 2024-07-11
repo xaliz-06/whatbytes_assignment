@@ -1,9 +1,4 @@
-import {
-  Card,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import React from "react";
 
 const Internship = () => {
@@ -14,10 +9,15 @@ const Internship = () => {
           <CardTitle className="text-2xl font-semibold text-black">
             Welcome to Internship Page
           </CardTitle>
-          <CardDescription className="text-lg text-slate-700 tracking-tighter">
-            This page will contain all the information regarding internships
-          </CardDescription>
         </CardHeader>
+        <CardContent className="flex flex-col gap-y-3">
+          <p className="text-lg text-slate-700 tracking-tighter">
+            This page will contain all the information regarding internships.
+          </p>
+          <p className="text-lg text-slate-700 tracking-tighter">
+            This page is only visible to signed in users.
+          </p>
+        </CardContent>
       </Card>
     </div>
   );

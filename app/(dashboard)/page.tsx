@@ -45,6 +45,10 @@ const Dashboard = () => {
               As this web-app is not connected to any backend, the data will not
               be stored. On page refresh, you will see the prefilled data.
             </p>
+            <p className="tracking-tighter">
+              The Internship page is only visible to signed in users. It is a
+              protected route.
+            </p>
           </div>
           <div className="pt-8">
             <Button

@@ -25,7 +25,7 @@ type Props = {
 const LineVariant = ({ data, yourPercentileData }: Props) => {
   const { isUpdated } = useUpdateDetails();
 
-  const isMobile = useMedia("(max-width: 1023px)", false);
+  const isMobile = useMedia("(max-width: 767px)", false);
 
   return (
     <ResponsiveContainer width="100%" height={350}>
