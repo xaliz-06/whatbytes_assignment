@@ -11,6 +11,7 @@ The app is not connected to a backend. So, the data does not persist.
 - shadcn-ui
 - react-hook-form & zod
 - Zustand
+- Clerk Auth
 - recharts
 
 ## Getting Started
